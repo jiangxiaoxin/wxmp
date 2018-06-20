@@ -1,0 +1,9 @@
+/**app.wxss**/
+
+
+page {
+  background-color: #f0f0f0;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.5;
+}

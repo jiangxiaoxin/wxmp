@@ -1,0 +1,12 @@
+<template name="list-template">
+  <view class='list-wrapper'>
+    <view class='list-item-container' bindtap='listItemTapped' wx:for="{{list}}"  data-item="{{item}}" wx:key="{{item.id}}">
+      <view class='list-item-title-wrapper'>
+        <view class='list-item-title'>{{item.title}}</view>
+      </view>
+      <view class='list-item-desc-wrapper'>
+        <view class='list-item-desc'>{{item.url}}</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class='container'>
+  <view bindtap='xiaoji' class='item'>小集</view>
+  <view bindtap='ceshi' class='item'>测试页</view>
+</view>

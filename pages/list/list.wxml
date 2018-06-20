@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view>
+  <view class='page-head'>
+    <image src='/assets/search.png' class='search-image'></image>
+    <view>
+      <text class='search-text'>每天更新，专注于iOS知识分享</text>
+    </view>
+  </view>
+
+  <view class='page-body'>
+
+  </view>
+</view>

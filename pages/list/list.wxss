@@ -1,0 +1,16 @@
+/* pages/list/list.wxss */
+.page-head {
+  padding: 25rpx;
+  text-align: center;
+}
+
+.search-image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.search-text {
+  color: #bfbfbf;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
