@@ -1,0 +1,8 @@
+<import src="./template3.wxml" />
+
+<template name="template2">
+  <view class='template2-index'>
+    <view>template2</view>
+    <template is="template3" /> 
+  </view>
+</template>

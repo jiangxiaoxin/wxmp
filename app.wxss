@@ -7,3 +7,9 @@ page {
   font-size: 32rpx;
   line-height: 1.5;
 }
+
+.page-head-title {
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 40rpx;
+}

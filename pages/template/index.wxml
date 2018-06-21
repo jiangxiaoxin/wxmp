@@ -1,0 +1,11 @@
+<import src="./templates/template1.wxml" />
+<import src="./templates/template2.wxml" />
+
+
+<view>
+  <view class="page-head-title">模板的使用</view>
+  <include src="./templates/header.wxml" />
+  <template is="template1" data="{{title: 'hello'}}"/>
+  <template is="template2" />
+  <include src="./templates/footer.wxml" />
+</view>

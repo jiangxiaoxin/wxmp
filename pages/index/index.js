@@ -16,5 +16,10 @@ Page({
     wx.navigateTo({
       url: '../test/test',
     })
+  },
+  template: function(event) {
+    wx.navigateTo({
+      url: '/pages/template/index',
+    })
   }
 })
